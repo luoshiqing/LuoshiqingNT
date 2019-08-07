@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
  
   spec.name         = "LuoshiqingNT"
 
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
 
   spec.summary      = "我的网络 LuoshiqingNT."
 
@@ -18,7 +18,10 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/luoshiqing/LuoshiqingNT.git", :tag => "#{spec.version}" }
 
   spec.requires_arc = true
+  
+  spec.swift_versions = "5.0"
 
-  spec.source_files  = 'LuoshiqingNT/**/*.{swift}'
+  spec.source_files  = "LuoshiqingNT/**/*.{swift}"
+
 
 end
